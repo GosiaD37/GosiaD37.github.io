@@ -78,7 +78,8 @@ Together, these artifacts form a cohesive narrative of my abilities: I can desig
   <img src="ePortfolio Pictures/1000004989.jpg">
 </center>
 
-Located in the **Software-Engineering-and-Design** Folder
+<code>You can see the orginal code and enhanced one <a href="https://github.com/GosiaD37/GosiaD37.github.io/tree/main/Software%20Engineering%20and%20Design
+">here</a>.</code>  
 
 
 
