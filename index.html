@@ -1,334 +1,344 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Malgorzata Debska - ePortfolio</title>
+<style>
+  /* --- Base --- */
+  :root{
+    --bg: #f3ede6;
+    --paper: #f8f3ef;
+    --merlot: #7a2b3a;
+    --merlot-dark: #5a1622;
+    --blue: #6a8aa0;
+    --text: #4b2c2c;
+    --muted: #8b7b7b;
+    --card-shadow: rgba(0,0,0,0.08);
+  }
+  html,body{height:100%;margin:0;font-family: "Georgia", serif;background:var(--bg);color:var(--text);}
+  img{max-width:100%;display:block;}
+  a{color:var(--merlot);text-decoration:none;}
+  a:hover{color:var(--merlot-dark);}
+
+  /* --- Ribbon banner (Merlot style) --- */
+  .ribbon-wrap{position:relative;display:flex;justify-content:center;margin-bottom:30px;}
+  .ribbon {
+    background: linear-gradient(#8f3140,#7a2b3a);
+    color:white;
+    padding:22px 44px;
+    border-radius:3px;
+    box-shadow:0 6px 0 rgba(0,0,0,0.12), inset 0 -3px rgba(255,255,255,0.04);
+    text-align:center;
+    max-width:920px;
+    width:100%;
+  }
+  .ribbon h1{margin:0;font-size:2.2rem;letter-spacing:1px;}
+  .ribbon p{margin:6px 0 0;font-style:italic;color:rgba(255,255,255,0.92);}
+
+  /* decorative tails */
+  .ribbon:before, .ribbon:after{
+    content:"";
+    position:absolute;
+    width:70px;height:26px;
+    top:42px;
+    background:linear-gradient(#6b1e30,#4f1320);
+    transform:skewX(-20deg);
+    box-shadow:0 3px 0 rgba(0,0,0,0.08);
+  }
+  .ribbon:before{left:calc(50% - 520px);}
+  .ribbon:after{right:calc(50% - 520px);}
+
+  /* banner underline shape */
+  .banner-shape{
+    width:80%;max-width:920px;margin:0 auto;height:36px;background:linear-gradient(#5f7f94,#6a8aa0);
+    border:4px solid #d6e3ea;border-top:none;border-radius:0 0 6px 6px;box-shadow:0 1px 0 rgba(0,0,0,0.06);
+    transform:translateY(-10px);
+  }
+
+  /* Profile photo */
+  .profile {
+    text-align:center;
+    margin-top:-80px;
+    margin-bottom:18px;
+  }
+  .profile img{
+    width:200px;height:200px;border-radius:50%;
+    border:6px solid var(--paper);
+    box-shadow:0 8px 18px rgba(0,0,0,0.12);
+    object-fit:cover;
+    background:white;
+  }
+
+  /* Main container */
+  .container{max-width:920px;margin:0 auto;padding:24px; background:transparent;}
+
+  /* headings */
+  h2.section-title{
+    text-align:center;
+    font-size:1.6rem;
+    color:var(--merlot);
+    margin:26px 0 10px;
+    font-weight:bold;
+  }
+  .subheading{
+    text-align:center;color:var(--muted);margin-bottom:18px;font-style:italic;
+  }
+
+  /* content cards */
+  .card{
+    background:linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.95));
+    border-radius:6px;padding:26px;margin:22px 0;box-shadow:0 8px 20px var(--card-shadow);
+    border-left:6px solid rgba(122,43,58,0.08);
+  }
+
+  .toc{margin:8px 0 22px;padding-left:14px;color:var(--muted);}
+  .toc a{display:block;margin:6px 0;}
+
+  /* details styling */
+  p{margin:0 0 14px;}
+  pre{font-family:inherit;background:#f5f2f0;padding:8px 10px;border-left:4px solid #e0d6d6;overflow:auto}
+  code{background:#faf6f4;padding:2px 6px;border-radius:4px;border:1px solid #ece3e3}
 
-<a href="https://github.com/gosiad37" target="_blank">
-    <img style="position: absolute; top: 0; left: 0; border: 0;"
-         src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"
-         alt="Fork me on GitHub">
-</a>
+  /* centered images inside cards */
+  .card .centered{display:flex;justify-content:center;margin:12px 0;}
+  .card .img-small{max-width:280px;border:1px solid #e6dfdf;padding:6px;background:white}
 
+  /* subtitles */
+  .muted-line{color:var(--muted);font-weight:700;margin:8px 0 12px}
 
+  /* buttons */
+  .btn {display:inline-block;background:var(--merlot);color:#fff;padding:10px 14px;border-radius:6px;text-decoration:none;margin-top:8px}
+  .btn:hover{background:var(--merlot-dark)}
 
+  /* footer */
+  .footer{text-align:center;margin:28px 0;color:var(--muted);font-size:0.95rem;}
 
----
-layout: default
----
+  /* responsive */
+  @media (max-width:720px){
+    .ribbon h1{font-size:1.5rem}
+    .ribbon p{font-size:0.95rem}
+    .ribbon:before,.ribbon:after{display:none}
+    .banner-shape{width:92%}
+    .profile{margin-top:-60px}
+  }
+</style>
+</head>
+<body>
 
-<a href="https://github.com/gosiad37" target="_blank">
-    <img style="position: absolute; top: 0; left: 0; border: 0;"
-         src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"
-         alt="Fork me on GitHub">
-</a>
+  <div class="ribbon-wrap">
+    <div class="ribbon" role="banner" aria-label="Malgorzata Debska header">
+      <h1>Malgorzata Debska</h1>
+      <p>CS-499 Computer Science Capstone | Southern New Hampshire University</p>
+    </div>
+  </div>
 
-<div style="text-align: center; padding-top: 50px;">
-    <h1><strong>MARGARET DEBSKA</strong></h1>
-    <p><em>This is my final project for CS-499, Computer Science Capstone at SNHU.</em></p>
-    
-    <img src="yourphoto.jpg" alt="Profile Photo" style="width: 200px; border-radius: 8px; margin: 20px 0;">
-    
-    <h2 style="color:#7d2145;">Computer Science Capstone</h2>
-    <h3>CS-499 | SNHU</h3>
-</div>
+  <div class="banner-shape" aria-hidden="true"></div>
 
-<hr>
+  <div class="profile">
+    <img src="ePortfolio Pictures/Screenshot_20250715_073506_Picsart.jpg" alt="Profile Picture">
+  </div>
 
-<h3>CODE REVIEW</h3>
-<p>
-    A code review involves quality assurance on a particular project by reviewing its source code and output.
-    This is highly important to the success of computer science professionals, since it ensures a level of
-    consistency in the development of a project and allows for a higher level of coding standards to be met.
-</p>
-<p>
-    <a href="https://your-code-review-link.com" style="background-color:#eee; padding:5px; border-radius:3px;">
-        You can watch the code review here.
-    </a>
-</p>
+  <main class="container" role="main">
 
-<hr>
+    <!-- Top Title / TOC -->
+    <section class="card" id="intro">
+      <h2 class="section-title">Malgorzata Debska</h2>
+      <div class="subheading">&lt;center&gt;CS-499 Computer Science Capstone | Southern New Hampshire University&lt;/center&gt;</div>
 
-<h3>PROJECTS</h3>
-<p>Projects by <strong>Margaret Debska</strong> can be found on <a href="https://github.com/gosiad37">GitHub</a>.</p>
+      <div class="muted-line"><strong>Table of Contents</strong></div>
+      <nav class="toc" aria-label="Table of contents">
+        <a href="#professional-self-assessment">Professional Self-Assessment</a>
+        <a href="#enhancement-one">Enhancement One - Software Design and Engineering (CS-410)</a>
+        <a href="#code-review-cs410">Code Review Video - CS-410</a>
+        <a href="#enhancement-two">Enhancement Two - Algorithms and Data Structures (CS-340)</a>
+        <a href="#code-review-cs340">Code Review Video - CS-340</a>
+        <a href="#enhancement-three">Enhancement Three - Databases (CS-405)</a>
+        <a href="#code-review-cs405">Code Review Video - CS-405</a>
+      </nav>
+    </section>
 
-<hr>
+    <!-- Professional Self-Assessment -->
+    <section class="card" id="professional-self-assessment" aria-labelledby="psa-heading">
+      <h2 id="psa-heading" class="section-title">Professional Self-Assessment</h2>
 
-<!-- START OF MERLOT PAGE CONTENT -->
-<p align="center"> 
-  <img src="ePortfolio Pictures/Screenshot_20250715_073506_Picsart.jpg" alt="Profile Picture" width="200" height="200" style="border-radius: 50%;">
-</p>
+      <p>Over the past three years in the Computer Science program, I have experienced a truly transformative journey—one that has challenged me to grow as a problem solver, a collaborator, and a professional in the field of technology. What began as an interest in understanding how software works has evolved into a deep, multifaceted skill set spanning software development, algorithms, databases, security, and effective communication with diverse stakeholders.</p>
 
-# Malgorzata Debska
+      <p>Throughout my coursework, I have worked on projects that reflect the real-world complexity of computer science. In collaborative environments, I learned the importance of version control, clear communication, and the ability to merge different coding styles and perspectives into a cohesive final product. These experiences sharpened my ability to operate effectively in team settings, balancing leadership and cooperation depending on the needs of the project.</p>
 
-## <center>CS-499 Computer Science Capstone | Southern New Hampshire University</center>
+      <p>Equally important has been my development in communicating with stakeholders—translating technical challenges into clear, actionable language. I have engaged in requirements gathering, status reporting, and solution presentations, always keeping the end user in mind. This skill has proven essential not only for ensuring that technical solutions meet business needs but also for establishing trust and clarity between technical and non-technical audiences.</p>
 
----
+      <h3 style="color:var(--merlot);margin-top:10px">Growth Through Coursework and ePortfolio Development</h3>
 
-## Table of Contents
+      <p>From my first introductory programming assignments to the complex, multi-component projects in my capstone, I have consistently challenged myself to take on work that demonstrates both depth and breadth of skill. Building my ePortfolio required me to revisit and enhance prior work, which reinforced my understanding of software engineering principles and gave me the opportunity to implement industry best practices.</p>
 
-- [Professional Self-Assessment](#professional-self-assessment)  
-- [Enhancement One - Software Design and Engineering (CS-410)](#enhancement-one-software-design-and-engineering-cs-410)  
-- [Code Review Video - CS-410](#code-review-video-cs-410)  
-- [Enhancement Two - Algorithms and Data Structures (CS-340)](#enhancement-two-algorithms-and-data-structures-cs-340)  
-- [Code Review Video - CS-340](#code-review-video-cs-340)  
-- [Enhancement Three - Databases (CS-405)](#enhancement-three-databases-cs-405)  
-- [Code Review Video - CS-405](#code-review-video-cs-405)  
+      <p>One of the most valuable aspects of this process has been seeing my progression—from writing functional code to designing maintainable, modular, and scalable solutions. The act of improving my artifacts was not just about cleaner code; it was about developing the mindset of a professional who anticipates future requirements, considers the user’s needs, and applies systematic approaches to problem-solving.</p>
 
----
+      <h3 style="color:var(--merlot);margin-top:10px">Collaborating in a Team Environment</h3>
 
-##  **Professional Self-Assessment**
+      <p>Team-based projects in my coursework taught me the importance of collaboration, version control, and role adaptability. I worked in environments where tasks were divided across team members, requiring consistent integration of different coding styles and ideas. Using tools like Git, I learned how to merge contributions smoothly, resolve conflicts, and maintain code integrity. These experiences also helped me understand that successful collaboration depends on clear communication, mutual respect, and an openness to feedback—skills I will carry into any professional setting.</p>
 
-Over the past three years in the Computer Science program, I have experienced a truly transformative journey—one that has challenged me to grow as a problem solver, a collaborator, and a professional in the field of technology. What began as an interest in understanding how software works has evolved into a deep, multifaceted skill set spanning software development, algorithms, databases, security, and effective communication with diverse stakeholders.
+      <h3 style="color:var(--merlot);margin-top:10px">Communicating with Stakeholders</h3>
 
-Throughout my coursework, I have worked on projects that reflect the real-world complexity of computer science. In collaborative environments, I learned the importance of version control, clear communication, and the ability to merge different coding styles and perspectives into a cohesive final product. These experiences sharpened my ability to operate effectively in team settings, balancing leadership and cooperation depending on the needs of the project.
+      <p>My projects often involved translating technical concepts for non-technical audiences, such as explaining database structures, system limitations, or algorithm efficiency to stakeholders with varying levels of technical expertise. This taught me to use precise but accessible language, highlight the “why” behind technical decisions, and ensure that project deliverables aligned with stakeholder needs. In real-world development, this skill is just as critical as writing quality code, because even the most robust system is ineffective if its value is not understood by those it serves.</p>
 
-Equally important has been my development in communicating with stakeholders—translating technical challenges into clear, actionable language. I have engaged in requirements gathering, status reporting, and solution presentations, always keeping the end user in mind. This skill has proven essential not only for ensuring that technical solutions meet business needs but also for establishing trust and clarity between technical and non-technical audiences.
+      <h3 style="color:var(--merlot);margin-top:10px">Data Structures and Algorithms</h3>
 
-**Growth Through Coursework and ePortfolio Development**
+      <p>Throughout the program, I gained a deep appreciation for the importance of algorithmic efficiency and proper data structure selection. I learned how to weigh trade-offs in performance, scalability, and memory usage. These skills were particularly evident in my capstone work, where I implemented optimized database queries and filtering algorithms to improve application responsiveness. Understanding these concepts allows me to design systems that not only work but work efficiently under real-world constraints.</p>
 
-From my first introductory programming assignments to the complex, multi-component projects in my capstone, I have consistently challenged myself to take on work that demonstrates both depth and breadth of skill. Building my ePortfolio required me to revisit and enhance prior work, which reinforced my understanding of software engineering principles and gave me the opportunity to implement industry best practices.
+      <h3 style="color:var(--merlot);margin-top:10px">Software Engineering and Database Skills</h3>
 
-One of the most valuable aspects of this process has been seeing my progression—from writing functional code to designing maintainable, modular, and scalable solutions. The act of improving my artifacts was not just about cleaner code; it was about developing the mindset of a professional who anticipates future requirements, considers the user’s needs, and applies systematic approaches to problem-solving.
+      <p>My coursework in software engineering emphasized the value of modular design, code reusability, and systematic testing. I applied these principles in both front-end and back-end contexts, ensuring that my applications were both functional and maintainable. In database-related projects, I gained experience with both SQL and NoSQL systems, focusing on schema design, query optimization, and data integrity. Integrating databases into larger software solutions allowed me to bridge the gap between persistent data storage and dynamic application behavior.</p>
 
-**Collaborating in a Team Environment**
+      <h3 style="color:var(--merlot);margin-top:10px">Security Awareness</h3>
 
-Team-based projects in my coursework taught me the importance of collaboration, version control, and role adaptability. I worked in environments where tasks were divided across team members, requiring consistent integration of different coding styles and ideas. Using tools like Git, I learned how to merge contributions smoothly, resolve conflicts, and maintain code integrity. These experiences also helped me understand that successful collaboration depends on clear communication, mutual respect, and an openness to feedback—skills I will carry into any professional setting.
+      <p>Security considerations were embedded in many of my projects, reinforcing that security is not a final step but an ongoing requirement in every stage of development. From managing authentication to preventing SQL injection and securing sensitive data in transit and at rest, I learned to adopt a proactive security mindset. This approach is critical for protecting both the organization’s assets and the trust of its users.</p>
 
-**Communicating with Stakeholders**
+      <h3 style="color:var(--merlot);margin-top:10px">How My Artifacts Fit Together</h3>
 
-My projects often involved translating technical concepts for non-technical audiences, such as explaining database structures, system limitations, or algorithm efficiency to stakeholders with varying levels of technical expertise. This taught me to use precise but accessible language, highlight the “why” behind technical decisions, and ensure that project deliverables aligned with stakeholder needs. In real-world development, this skill is just as critical as writing quality code, because even the most robust system is ineffective if its value is not understood by those it serves.
+      <p>The artifacts in my ePortfolio collectively showcase the range of my skills:</p>
+      <ul>
+        <li><strong>Algorithms and Data Structures:</strong> Demonstrating database integration with optimized querying and interactive data visualization.</li>
+        <li><strong>Software Engineering and Design:</strong> Showing modular, user-focused application development with robust input validation and error handling.</li>
+        <li><strong>Databases:</strong> Illustrating secure, efficient, and scalable database interaction within software systems.</li>
+      </ul>
 
-**Data Structures and Algorithms**
+      <p>Together, these artifacts form a cohesive narrative of my abilities: I can design and implement full-stack solutions that are efficient, maintainable, secure, and user-oriented. Each artifact builds on the same professional values—clarity, adaptability, and quality—that I will bring to my future work.</p>
+    </section>
 
-Throughout the program, I gained a deep appreciation for the importance of algorithmic efficiency and proper data structure selection. I learned how to weigh trade-offs in performance, scalability, and memory usage. These skills were particularly evident in my capstone work, where I implemented optimized database queries and filtering algorithms to improve application responsiveness. Understanding these concepts allows me to design systems that not only work but work efficiently under real-world constraints.
+    <!-- Enhancement One -->
+    <section class="card" id="enhancement-one" aria-labelledby="e1-heading">
+      <h2 id="e1-heading" class="section-title">Enhancement One: Software Design and Engineering</h2>
+      <div class="subheading">&lt;center&gt;CS 410&lt;/center&gt;</div>
 
-**Software Engineering and Database Skills**
-My coursework in software engineering emphasized the value of modular design, code reusability, and systematic testing. I applied these principles in both front-end and back-end contexts, ensuring that my applications were both functional and maintainable. In database-related projects, I gained experience with both SQL and NoSQL systems, focusing on schema design, query optimization, and data integrity. Integrating databases into larger software solutions allowed me to bridge the gap between persistent data storage and dynamic application behavior.
+      <div class="centered"><img class="img-small" src="ePortfolio Pictures/1000004989.jpg" alt="CS-410 Artifact"></div>
+      <p><strong>Located in the <code>Software-Engineering-and-Design</code> Folder</strong></p>
 
-**Security Awareness**
-Security considerations were embedded in many of my projects, reinforcing that security is not a final step but an ongoing requirement in every stage of development. From managing authentication to preventing SQL injection and securing sensitive data in transit and at rest, I learned to adopt a proactive security mindset. This approach is critical for protecting both the organization’s assets and the trust of its users.
+      <p>The artifact I selected from CS-410: Software Reverse Engineering is an in-depth project focused on analyzing and deconstructing a software program using both static and dynamic analysis techniques. This project required me to reverse engineer a compiled application by interpreting low-level code and reconstructing its high-level logic. I used tools to disassemble and examine the executable, which allowed me to understand how the software functioned without access to the original source code. Through this process, I learned to think critically and carefully dissect software in a way that exposed its logic, functions, and potential vulnerabilities.</p>
 
-## *How My Artifacts Fit Together*  ##
-  
-The artifacts in my ePortfolio collectively showcase the range of my skills:
+      <p>I decided to include this project in my ePortfolio because it represents a unique and highly relevant skill set in the world of software engineering. Being able to reverse engineer a program and analyze its behavior, especially without having access to the source code, is an important ability in fields like cybersecurity and legacy software maintenance. This artifact shows how I can look at software from a forensic perspective, figure out what it does and how it works, and communicate those findings in a clear, technical manner.</p>
 
-**Algorithms and Data Structures:** Demonstrating database integration with optimized querying and interactive data visualization.
+      <p>In preparing the project for my ePortfolio, I enhanced the original version by expanding the documentation and making the structure of the report easier to follow. I reorganized the findings so that the conclusions were grouped by function, rather than just listed in the order I discovered them. I also went back into the decompiled code to add inline comments that explained what each block of code was doing, which made the report much more accessible to readers who may not be familiar with reverse engineering. Working on this artifact helped me meet several key course outcomes, especially in terms of critical thinking, technical documentation, and applying systematic problem-solving techniques. Improving the clarity and structure of my analysis, I also showed my ability to communicate complex information in a way that’s easier to understand and useful to others. These enhancements made the project more professional and polished, which is exactly what I wanted for my portfolio. Looking back on the process, I realized how much I’ve grown since I first worked on this project. Initially, I struggled to understand some of the lower-level binary patterns and how they relate to the software's higher-level logic. But by sticking with it and using the tools and knowledge I gained throughout the course, I built up the confidence to work through those challenges. I also came to appreciate how important clear documentation is, especially in technical fields where others may need to understand and build upon your work.</p>
 
-**Software Engineering and Design:** Showing modular, user-focused application development with robust input validation and error handling.
+      <p>The original version of this program was a straightforward console application that printed a hardcoded multiplication table from 1 to 9. All of the logic was contained inside the <code>main()</code> function, which simply looped through two variables and displayed the results. While it worked, it lacked flexibility, had no input handling, and offered no real-world usability beyond the fixed output. If the user wanted a different range or to store results, the code would have to be rewritten manually.</p>
 
-**Databases:** Illustrating secure, efficient, and scalable database interaction within software systems.
+      <p>For the enhancement, my goal was to transform this simple script into a <strong>more dynamic, user-driven, and maintainable application</strong> while demonstrating cleaner programming practices. I began by restructuring the program into multiple, clearly defined functions:</p>
 
-Together, these artifacts form a cohesive narrative of my abilities: I can design and implement full-stack solutions that are efficient, maintainable, secure, and user-oriented. Each artifact builds on the same professional values—clarity, adaptability, and quality—that I will bring to my future work.
+      <ul>
+        <li><code>displayMultiplicationTable(int start, int end)</code> — Responsible only for generating and displaying the multiplication table for a given range. This separation made the logic easier to test and maintain.</li>
+        <li><code>getValidatedInput(const string& prompt)</code> — Added to ensure that all inputs were valid integers. It uses <code>cin.fail()</code> checks, clears error flags, and flushes the input buffer so the program never crashes on bad input. This greatly improved the program’s <strong>robustness and user-friendliness.</strong></li>
+        <li><code>saveTableToFile(int start, int end, const string& filename)</code> — A new feature that lets the user store the generated table in a text file. It validates file access, writes the formatted table, and gives a confirmation message once saving is complete.</li>
+      </ul>
 
+      <p>In addition to modularization, I expanded the program’s <strong>customization capabilities.</strong> Instead of being locked to the 1–9 range, the user is now prompted to enter a start and end value for the multiplication table. This flexibility makes the program useful in more contexts whether for basic math drills, larger multiplication sets, or even partial ranges for focused practice. I also implemented a <strong>logical check</strong> to ensure that the start value is not greater than the end value, providing immediate feedback if the range is invalid.</p>
 
-# <pre align="center">Enhancement One: Software Design and Engineering</pre>
+      <p>From a user experience perspective, I added an interactive prompt at the end asking whether the table should be saved to a file. This additional layer of choice makes the program feel more like a practical tool than just a coding exercise. For instance, a user can quickly generate a large table and store it for later reference, study, or printing.</p>
 
-## <pre align="center">CS 410</pre>
+      <p>Introducing <strong>error handling, file I/O</strong>, and <strong>structured design</strong>, the enhanced version is far more professional and maintainable. The improvements not only demonstrate my ability to <strong>refactor procedural code into a modular structure</strong>, but also highlight skills in <strong>input validation, file operations, and user interaction design</strong>. This transformation turned what was once a static.</p>
 
+      <div style="margin-top:10px">
+        <a id="code-review-cs410" href="#" class="btn">Code Review Video - CS-410 (placeholder)</a>
+      </div>
+    </section>
 
-<center>
-  <img src="ePortfolio Pictures/1000004989.jpg">
-</center>
+    <!-- Enhancement Two -->
+    <section class="card" id="enhancement-two" aria-labelledby="e2-heading">
+      <h2 id="e2-heading" class="section-title">Enhancement Two: Algorithms and Data Structures</h2>
+      <div class="subheading">&lt;center&gt;CS 340&lt;/center&gt;</div>
 
-Located in the **Software-Engineering-and-Design** Folder
+      <div class="centered"><img class="img-small" src="ePortfolio Pictures/1000004986.jpg" alt="CS-340 Artifact"></div>
+      <p><strong>Located in the <code>Algorithms-and-Data-Structures</code> Folder</strong></p>
 
+      <p>The second artifact I selected for my ePortfolio is a web-based CRUD (Create, Read, Update, Delete) application originally developed in CS-340: Client-Server Development. This project was created using Python, Flask, and MongoDB, with a Dash web interface to visualize animal shelter data. The application provides interactive features for users to view and filter animals suited for rescue tasks, such as water or mountain rescue. The initial version was completed during the course, but I enhanced and restructured it to better demonstrate my evolving technical skills.</p>
 
+      <p>I chose to include this artifact because it reflects my growth as a full-stack developer, especially in applying algorithms and data structure concepts in real-world scenarios. While the original version functioned correctly, its logic for querying and filtering data was tightly coupled to the event callbacks and lacked modularity. In the enhanced version, I made several improvements, particularly to the algorithms used for filtering and the data structures used to represent conditions and operations.</p>
 
+      <h3 style="color:var(--merlot);margin-top:10px">Key Enhancements</h3>
+      <ol>
+        <li><strong>Modular Algorithm Design:</strong><br>
+            In the original version, MongoDB queries for filtering animals based on rescue type (e.g., water, mountain, disaster rescue) were directly embedded within the event handler callbacks. This approach made the logic harder to maintain and reuse. In the enhanced version, I modularized these queries by creating dedicated functions like <code>query_water_rescue()</code>, <code>query_mountain_rescue()</code>, and <code>query_disaster_rescue()</code>. Each function returns a structured MongoDB query in the form of a Python dictionary. This change improved the algorithm’s clarity and reusability.
+        </li>
 
+        <li style="margin-top:8px"><strong>Efficient Use of Data Structures:</strong><br>
+            I used Python’s dictionary and list structures to represent complex query conditions with logical operators like <code>$and</code>, <code>$in</code>, <code>$gte</code>, and <code>$lte</code>. For example, breeds eligible for water rescue are stored as a list within a dictionary condition using the <code>$in</code> operator. This approach makes the code more flexible and aligns with best practices for managing data-driven logic.
+        </li>
 
+        <li style="margin-top:8px"><strong>Code Readability and Maintainability:</strong><br>
+            I added structured inline comments, improved function naming conventions, and introduced visual separators to make the code easier to follow. These improvements help others (and my future self) understand the logic more quickly and make future updates less error prone.
+        </li>
 
+        <li style="margin-top:8px"><strong>UI and Layout Enhancements:</strong><br>
+            Although the main focus was on algorithm and data structure improvements, I also enhanced the UI consistency by refining layout structure and visual hierarchy. I reorganized the layout components and updated the placement of interactive elements like maps, dropdowns, and data tables to improve user experience.
+        </li>
+      </ol>
 
-The artifact I selected from CS-410: Software Reverse Engineering is an in-depth project focused on analyzing and deconstructing a software program using both static and dynamic analysis techniques. This project required me to reverse engineer a compiled application by interpreting low-level code and reconstructing its high-level logic. I used tools to disassemble and examine the executable, which allowed me to understand how the software functioned without access to the original source code. Through this process, I learned to think critically and carefully dissect software in a way that exposed its logic, functions, and potential vulnerabilities.
-I decided to include this project in my ePortfolio because it represents a unique and highly relevant skill set in the world of software engineering. Being able to reverse engineer a program and analyze its behavior, especially without having access to the source code, is an important ability in fields like cybersecurity and legacy software maintenance. This artifact shows how I can look at software from a forensic perspective, figure out what it does and how it works, and communicate those findings in a clear, technical manner.
+      <p>This artifact demonstrates my skills in creating modular, maintainable code and in designing custom algorithms that solve a practical problem, filtering animal data for specific rescue tasks. The enhancements I made clearly show my ability to transform procedural logic into modular algorithms, while effectively using Python’s built-in data structures to represent complex, nested conditions. At the beginning of the course, I planned to meet the course outcome related to designing and analyzing algorithms and data structures for efficiency and maintainability. This enhancement meets that outcome by:</p>
 
-In preparing the project for my ePortfolio, I enhanced the original version by expanding the documentation and making the structure of the report easier to follow. I reorganized the findings so that the conclusions were grouped by function, rather than just listed in the order I discovered them. I also went back into the decompiled code to add inline comments that explained what each block of code was doing, which made the report much more accessible to readers who may not be familiar with reverse engineering. Working on this artifact helped me meet several key course outcomes, especially in terms of critical thinking, technical documentation, and applying systematic problem-solving techniques. Improving the clarity and structure of my analysis, I also showed my ability to communicate complex information in a way that’s easier to understand and useful to others. These enhancements made the project more professional and polished, which is exactly what I wanted for my portfolio. Looking back on the process, I realized how much I’ve grown since I first worked on this project. Initially, I struggled to understand some of the lower-level binary patterns and how they relate to the software's higher-level logic. But by sticking with it and using the tools and knowledge I gained throughout the course, I built up the confidence to work through those challenges. I also came to appreciate how important clear documentation is, especially in technical fields where others may need to understand and build upon your work.
+      <ul>
+        <li>Refactoring procedural logic into discrete algorithmic functions,</li>
+        <li>Using structured data (dicts and lists) for query construction,</li>
+        <li>Supporting scalable, maintainable code practices.</li>
+      </ul>
 
-The original version of this program was a straightforward console application that printed a hardcoded multiplication table from 1 to 9. All of the logic was contained inside the <code>main()</code> function, which simply looped through two variables and displayed the results. While it worked, it lacked flexibility, had no input handling, and offered no real-world usability beyond the fixed output. If the user wanted a different range or to store results, the code would have to be rewritten manually.
+      <p>At this time, I have no updates to my outcome-coverage plans, as this enhancement fully supports my original goal. Enhancing this artifact taught me the value of writing modular code and how critical it is to separate logic from implementation details. By extracting logic into standalone functions, I now better understand how to organize software components for readability, reuse, and testing. A key challenge I faced was determining how to restructure the query logic without breaking existing functionality. Testing each enhancement incrementally helped ensure correctness. I also had to ensure that the logic accurately filtered animals by age, sex, and breed requiring careful use of MongoDB’s query syntax.</p>
 
-For the enhancement, my goal was to transform this simple script into a **more dynamic, user-driven, and maintainable application** while demonstrating cleaner programming practices. I began by restructuring the program into multiple, clearly defined functions:
+      <p>Ultimately, this enhancement strengthened both my technical and problem-solving skills. It transformed a working project into a more professional and maintainable application that demonstrates my ability to work with algorithms, data structures, and full-stack web development.</p>
 
-- <code>displayMultiplicationTable(int start, int end)</code> — Responsible only for generating and displaying the multiplication table for a given range. This separation made the logic easier to test and maintain.
+      <div style="margin-top:10px">
+        <a id="code-review-cs340" href="#" class="btn">Code Review Video - CS-340 (placeholder)</a>
+      </div>
+    </section>
 
-- <code>getValidatedInput(const string& prompt)</code> — Added to ensure that all inputs were valid integers. It uses <code>cin.fail()</code> checks, clears error flags, and flushes the input buffer so the program never crashes on bad input. This greatly improved the program’s **robustness and user-friendliness.**
+    <!-- Enhancement Three -->
+    <section class="card" id="enhancement-three" aria-labelledby="e3-heading">
+      <h2 id="e3-heading" class="section-title">Enhancement Three: Databases</h2>
+      <div class="subheading">&lt;center&gt;CS 405&lt;/center&gt;</div>
 
-- <code>saveTableToFile(int start, int end, const string& filename)</code> — A new feature that lets the user store the generated table in a text file. It validates file access, writes the formatted table, and gives a confirmation message once saving is complete.
+      <div class="centered"><img class="img-small" src="ePortfolio Pictures/1000004985.jpg" alt="CS-405 Artifact"></div>
+      <p><strong>Located in the <code>Databases</code> Folder</strong></p>
 
-In addition to modularization, I expanded the program’s **customization capabilities.** Instead of being locked to the 1–9 range, the user is now prompted to enter a start and end value for the multiplication table. This flexibility makes the program useful in more contexts whether for basic math drills, larger multiplication sets, or even partial ranges for focused practice. I also implemented a **logical check** to ensure that the start value is not greater than the end value, providing immediate feedback if the range is invalid.
+      <p>For the final category, I selected a contact management system that I initially created in CS-405. It tests the behavior of a dynamic collection using the <code>std::vector</code> class and the Google Test framework. This test suite is designed to verify operations like adding elements, resizing the collection, clearing values, checking capacity, and handling exceptions. Although not tied to a formal database system, the project simulates record-based operations similar to basic CRUD functionality found in contact or data management systems, making it relevant to the Databases category.</p>
 
-From a user experience perspective, I added an interactive prompt at the end asking whether the table should be saved to a file. This additional layer of choice makes the program feel more like a practical tool than just a coding exercise. For instance, a user can quickly generate a large table and store it for later reference, study, or printing.
+      <p>I selected this artifact for my ePortfolio because it demonstrates my skills in object-oriented programming, testing, and defensive programming all critical competencies in software development. The original version of the test suite <code>(test.cpp)</code> functioned correctly but lacked clarity, structure, and coverage in certain key areas. Specifically, it had minimal inline documentation, limited exception handling, and did not fully test edge cases like exceeding maximum capacity or accessing out-of-bound elements.</p>
 
-Introducing **error handling, file I/O**, and **structured design**, the enhanced version is far more professional and maintainable. The improvements not only demonstrate my ability to **refactor procedural code into a modular structure**, but also highlight skills in **input validation, file operations, and user interaction design**. This transformation turned what was once a static.
+      <p>As part of this milestone, I significantly improved the artifact by enhancing the codebase in <code>NEWtest.cpp</code>. To strengthen the original code, I made several numbers of key improvements:</p>
 
-# Code Review Video - CS-410
+      <ul>
+        <li>I added clear and detailed inline documentation throughout the test suite to explain the purpose and logic of each function and test case.</li>
+        <li>I expanded exception handling by writing tests that explicitly check for errors, such as accessing invalid indices <code>(std::out_of_range)</code> and attempting to reserve memory beyond the collection’s maximum capacity <code>(std::length_error).</code></li>
+        <li>I incorporated defensive programming practices, such as validating preconditions, confirming expected outcomes after each operation, and designing tests that handle edge cases gracefully.</li>
+        <li>To increase test coverage and scalability, I introduced parameterized tests that automatically run multiple scenarios using different input sizes (0, 1, 5, and 10).</li>
+        <li>I improved the readability of the code by refining test case names to clearly reflect their purpose, such as <code>ResizeIncreasesCollectionSize</code> and <code>AssignValuesToCollection</code>.</li>
+        <li>I reinforced proper memory management by using <code>std::unique_ptr</code> for the collection, along with structured setup and teardown methods to ensure a clean test environment for each case.</li>
+      </ul>
 
-*(Add your video link here)*
+      <p>These enhancements significantly improved the clarity, maintainability, and reliability of the code. They also reflect my understanding of software engineering best practices and my ability to apply those practices in a meaningful way. This artifact directly supports the course outcomes I set out to achieve in Module One. I applied modular design, test-driven development principles, and robust error handling. The enhancements I made helped me go beyond simply writing tests I learned to think critically about edge cases, failure conditions, and the long-term sustainability of the code. At this point, I do not have any updates to my outcome-coverage plans, as this artifact fully demonstrates the skills I intended to strengthen.</p>
 
+      <p>Reflecting on the enhancement process, I gained a deeper understanding of how valuable thorough testing and thoughtful design can be in ensuring software quality. One of the challenges I faced was determining how to best simulate database-like operations within a C++ environment that doesn't use a database engine. I focused on core behaviors like adding entries, resizing collections, and validating boundaries, and ensured these were covered by meaningful, automated tests.</p>
 
-# <pre align="center">Enhancement Two: Algorithms and Data Structures</pre>
+      <p>This process helped me transition from simply making code “work” to engineering code that is reliable, readable, and resilient. It reinforced the idea that strong testing and defensive design aren’t optional, they are essential to building professional-grade software. Overall, this artifact reflects not just my technical growth but also my evolving mindset as a developer who prioritizes quality, clarity, and long-term maintainability.</p>
 
-## <pre align="center">CS 340</pre>
+      <div style="margin-top:10px">
+        <a id="code-review-cs405" href="#" class="btn">Code Review Video - CS-405 (placeholder)</a>
+      </div>
+    </section>
 
-<center>
-  <img src="ePortfolio Pictures/1000004986.jpg">
-</center>
+    <!-- Code Review Videos placeholders repeated section (if desired) -->
+    <section class="card" aria-labelledby="videos-heading">
+      <h2 id="videos-heading" class="section-title">Code Review Videos</h2>
+      <p>If you have recordings of your code reviews, add the links to the buttons below. Replace <code>#</code> with the video URL (YouTube, Vimeo, or GitHub video link).</p>
+      <p>
+        <a class="btn" href="#" aria-label="Code review video CS-410">CS-410 Code Review Video</a>
+        <a class="btn" href="#" aria-label="Code review video CS-340" style="margin-left:8px">CS-340 Code Review Video</a>
+        <a class="btn" href="#" aria-label="Code review video CS-405" style="margin-left:8px">CS-405 Code Review Video</a>
+      </p>
+    </section>
 
+    <footer class="footer">
+      <p>Thank you for visiting my ePortfolio! I look forward to using these skills and experiences in my future career.</p>
+    </footer>
 
+  </main>
 
-Located in the **Algorithms-and-Data-Structures** Folder
-
-The second artifact I selected for my ePortfolio is a web-based CRUD (Create, Read, Update,
-Delete) application originally developed in CS-340: Client-Server Development. This project
-was created using Python, Flask, and MongoDB, with a Dash web interface to visualize animal
-shelter data. The application provides interactive features for users to view and filter animals
-suited for rescue tasks, such as water or mountain rescue. The initial version was completed
-during the course, but I enhanced and restructured it to better demonstrate my evolving technical
-skills.
-I chose to include this artifact because it reflects my growth as a full-stack developer, especially
-in applying algorithms and data structure concepts in real-world scenarios. While the original
-version functioned correctly, its logic for querying and filtering data was tightly coupled to the
-event callbacks and lacked modularity. In the enhanced version, I made several improvements,
-particularly to the algorithms used for filtering and the data structures used to represent
-conditions and operations.
-
-## Key Enhancements ##
-
-1. **Modular Algorithm Design:**
-In the original version, MongoDB queries for filtering animals based on rescue type (e.g.,
-water, mountain, disaster rescue) were directly embedded within the event handler
-callbacks. This approach made the logic harder to maintain and reuse. In the enhanced
-version, I modularized these queries by creating dedicated functions like
-<code>query_water_rescue()</code>, <code>query_mountain_rescue()</code>, and <code>query_disaster_rescue().</code>
-Each function returns a structured MongoDB query in the form of a Python dictionary. This
-change improved the algorithm’s clarity and reusability.
-
-3. **Efficient Use of Data Structures:**
-I used Python’s dictionary and list structures to represent complex query conditions with
-logical operators like <code>$and</code>, <code>$in</code>, <code>$gte</code>, and <code>$lte</code>. For example, breeds eligible for water
-rescue are stored as a list within a dictionary condition using the $in operator. This
-approach makes the code more flexible and aligns with best practices for managing datadriven logic.
-4. **Code Readability and Maintainability:**
-I added structured inline comments, improved function naming conventions, and
-introduced visual separators to make the code easier to follow. These improvements help
-others (and my future self) understand the logic more quickly and make future updates
-less error prone.
-5. **UI and Layout Enhancements:**
-Although the main focus was on algorithm and data structure improvements, I also
-enhanced the UI consistency by refining layout structure and visual hierarchy. I
-reorganized the layout components and updated the placement of interactive elements
-like maps, dropdowns, and data tables to improve user experience.
-
-This artifact demonstrates my skills in creating modular, maintainable code and in designing
-custom algorithms that solve a practical problem, filtering animal data for specific rescue tasks.
-The enhancements I made clearly show my ability to transform procedural logic into modular
-algorithms, while effectively using Python’s built-in data structures to represent complex, nested
-conditions. At the beginning of the course, I planned to meet the course outcome related to
-designing and analyzing algorithms and data structures for efficiency and maintainability. This
-enhancement meets that outcome by:
-- Refactoring procedural logic into discrete algorithmic functions,
-- Using structured data (dicts and lists) for query construction,
-- Supporting scalable, maintainable code practices.
-
-At this time, I have no updates to my outcome-coverage plans, as this enhancement fully
-supports my original goal.
-Enhancing this artifact taught me the value of writing modular code and how critical it is to
-separate logic from implementation details. By extracting logic into standalone functions, I now
-better understand how to organize software components for readability, reuse, and testing.
-A key challenge I faced was determining how to restructure the query logic without breaking
-existing functionality. Testing each enhancement incrementally helped ensure correctness. I also
-had to ensure that the logic accurately filtered animals by age, sex, and breed requiring careful
-use of MongoDB’s query syntax.
-Ultimately, this enhancement strengthened both my technical and problem-solving skills. It
-transformed a working project into a more professional and maintainable application that
-demonstrates my ability to work with algorithms, data structures, and full-stack web
-development.
-
-# Code Review Video - CS-340
-
-*(Add your video link here)*
-
-
-# <pre align="center">Enhancement Three: Databases</pre>
-
-## <pre align="center">CS 405</pre>
-
-<center>
-  <img src="ePortfolio Pictures/1000004985.jpg">
-</center>
-
-Located in the **Databases** Folder
-
-For the final category, I selected a contact management system that I initially created in CS-405.
-It tests the behavior of a dynamic collection using the <code>std::vector</code> class and the Google Test
-framework. This test suite is designed to verify operations like adding elements, resizing the
-collection, clearing values, checking capacity, and handling exceptions. Although not tied to a
-formal database system, the project simulates record-based operations similar to basic CRUD
-functionality found in contact or data management systems, making it relevant to the Databases
-category.
-
-I selected this artifact for my ePortfolio because it demonstrates my skills in object-oriented
-programming, testing, and defensive programming all critical competencies in software
-development. The original version of the test suite <code>(test.cpp)</code> functioned correctly but lacked
-clarity, structure, and coverage in certain key areas. Specifically, it had minimal inline
-documentation, limited exception handling, and did not fully test edge cases like exceeding
-maximum capacity or accessing out-of-bound elements.
-
-As part of this milestone, I significantly improved the artifact by enhancing the codebase in
-NEWtest.cpp. To strengthen the original code, I made several numbers of key improvements:
-
-- I added clear and detailed inline documentation throughout the test suite to explain the
-purpose and logic of each function and test case.
-- I expanded exception handling by writing tests that explicitly check for errors, such as
-accessing invalid indices <code>(std::out_of_range)</code> and attempting to reserve memory beyond
-the collection’s maximum capacity <code>(std::length_error).</code>
-- I incorporated defensive programming practices, such as validating preconditions,
-confirming expected outcomes after each operation, and designing tests that handle edge
-cases gracefully.
-- To increase test coverage and scalability, I introduced parameterized tests that
-automatically run multiple scenarios using different input sizes (0, 1, 5, and 10).
-- I improved the readability of the code by refining test case names to clearly reflect their
-purpose, such as ResizeIncreasesCollectionSize and AssignValuesToCollection.
-- I reinforced proper memory management by using <code>std::unique_ptr</code> for the collection,
-along with structured setup and teardown methods to ensure a clean test environment for
-each case.
-
-These enhancements significantly improved the clarity, maintainability, and reliability of the
-code. They also reflect my understanding of software engineering best practices and my ability
-to apply those practices in a meaningful way.
-This artifact directly supports the course outcomes I set out to achieve in Module One. I applied
-modular design, test-driven development principles, and robust error handling. The
-enhancements I made helped me go beyond simply writing tests I learned to think critically
-about edge cases, failure conditions, and the long-term sustainability of the code. At this point, I
-do not have any updates to my outcome-coverage plans, as this artifact fully demonstrates the
-skills I intended to strengthen.
-
-Reflecting on the enhancement process, I gained a deeper understanding of how valuable
-thorough testing and thoughtful design can be in ensuring software quality. One of the challenges
-I faced was determining how to best simulate database-like operations within a C++ environment
-that doesn't use a database engine. I focused on core behaviors like adding entries, resizing
-collections, and validating boundaries, and ensured these were covered by meaningful,
-automated tests.
-
-This process helped me transition from simply making code “work” to engineering code that is
-reliable, readable, and resilient. It reinforced the idea that strong testing and defensive design
-aren’t optional, they are essential to building professional-grade software. Overall, this artifact
-reflects not just my technical growth but also my evolving mindset as a developer who prioritizes
-quality, clarity, and long-term maintainability
-
-# Code Review Video - CS-405
-
-*(Add your video link here)*
-
-
-
- 
-
----
-
-### Thank you for visiting my ePortfolio!  
-I look forward to using these skills and experiences in my future career.
-
----
-<!-- END OF MERLOT PAGE CONTENT -->
-
-
-<h3>PROJECTS</h3>
-<p>Projects by <strong>Margaret Debska</strong> can be found on <a href="https://github.com/gosiad37">GitHub</a>.</p>
+</body>
+</html>
