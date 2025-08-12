@@ -1,24 +1,26 @@
-<center>
-  <img src="ePortfolio Pictures/Screenshot_20250715_073506_Picsart.jpg" height=200 width=200>
-</center>
-Malgorzata Debska
-  
-## <center>CS-499 Computer Science Capstone | SNHU</center>
+<p align="center">
+  <img src="ePortfolio Pictures/Screenshot_20250715_073506_Picsart.jpg" alt="Profile Picture" width="200" height="200" style="border-radius: 50%;">
+</p>
 
+# Malgorzata Debska
 
+## <center>CS-499 Computer Science Capstone | Southern New Hampshire University</center>
 
+---
 
+## Table of Contents
 
-## *Table of Content*
-1. Professional Self-Assessment
-2. Software Design and Engineering: CS-410
-3. Code Review Video
-5. Algorithms and Data Structure: CS-340
-6. Code Review Video
-7. Databases: CS-405
-8. Code Review Video
+- [Professional Self-Assessment](#professional-self-assessment)  
+- [Enhancement One - Software Design and Engineering (CS-410)](#enhancement-one-software-design-and-engineering-cs-410)  
+- [Code Review Video - CS-410](#code-review-video-cs-410)  
+- [Enhancement Two - Algorithms and Data Structures (CS-340)](#enhancement-two-algorithms-and-data-structures-cs-340)  
+- [Code Review Video - CS-340](#code-review-video-cs-340)  
+- [Enhancement Three - Databases (CS-405)](#enhancement-three-databases-cs-405)  
+- [Code Review Video - CS-405](#code-review-video-cs-405)  
 
-### *Professional Self-Assessment:*
+---
+
+##  **Professional Self-Assessment**
 
 
 
@@ -101,7 +103,12 @@ In addition to modularization, I expanded the program’s **customization capabi
 
 From a user experience perspective, I added an interactive prompt at the end asking whether the table should be saved to a file. This additional layer of choice makes the program feel more like a practical tool than just a coding exercise. For instance, a user can quickly generate a large table and store it for later reference, study, or printing.
 
-Introducing **error handling, file I/O**, and **structured design**, the enhanced version is far more professional and maintainable. The improvements not only demonstrate my ability to **refactor procedural code into a modular structure**, but also highlight skills in **input validation, file operations, and user interaction design**. This transformation turned what was once a static
+Introducing **error handling, file I/O**, and **structured design**, the enhanced version is far more professional and maintainable. The improvements not only demonstrate my ability to **refactor procedural code into a modular structure**, but also highlight skills in **input validation, file operations, and user interaction design**. This transformation turned what was once a static.
+
+# Code Review Video - CS-410
+
+*(Add your video link here)*
+
 
 # <pre align="center">Enhancement Two: Algorithms and Data Structures</pre>
 
@@ -181,6 +188,10 @@ transformed a working project into a more professional and maintainable applicat
 demonstrates my ability to work with algorithms, data structures, and full-stack web
 development.
 
+# Code Review Video - CS-340
+
+*(Add your video link here)*
+
 
 # <pre align="center">Enhancement Three: Databases</pre>
 
@@ -249,26 +260,19 @@ aren’t optional, they are essential to building professional-grade software. O
 reflects not just my technical growth but also my evolving mindset as a developer who prioritizes
 quality, clarity, and long-term maintainability
 
+# Code Review Video - CS-405
+
+*(Add your video link here)*
+
+
+
+---
+
+### Thank you for visiting my ePortfolio!  
+I look forward to using these skills and experiences in my future career.
+
+---
 
 
 
 
-
-
-
-
-### **Code Review Video:**
-
-#### *Category One: Software Engineering and Design*
-#### *Category Two: Algorithms and Data Structures*
-#### *Category Three: Databases*
-
-Below is a link directly to my YouTube page where I uploaded my Code Review where I addressed the following:
-
-[x] Existing functionality: Walk through and identify what the code is, what it does, and how it works.
-
-[x] Code Analysis: Review the code structure, look for code efficiencies, and check for comments and code documentation. Explain your findings.
-
-[x] Look for enhancement: Walk through and explain planned enhancements. 
-
-This video was built using (link to the video put here).
