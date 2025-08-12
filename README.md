@@ -1,1 +1,94 @@
-# GosiaD37.github.io
+<center>
+  <img src="profile.jpg" height=200 width=200>
+</center>
+Malgorzata Debska
+  
+## <center>CS-499 Computer Science Capstone | SNHU</center>
+
+
+
+
+
+## *Table of Content*
+1. Professional Self-Assessment
+2. Software Design and Engineering: CS-410
+3. Code Review Video
+5. Algorithms and Data Structure: CS-340
+6. Code Review Video
+7. Databases: CS-405
+8. Code Review Video
+
+### *Professional Self-Assessment:*
+
+
+
+Over the past three years in the Computer Science program, I have experienced a truly transformative journey—one that has challenged me to grow as a problem solver, a collaborator, and a professional in the field of technology. What began as an interest in understanding how software works has evolved into a deep, multifaceted skill set spanning software development, algorithms, databases, security, and effective communication with diverse stakeholders.
+
+Throughout my coursework, I have worked on projects that reflect the real-world complexity of computer science. In collaborative environments, I learned the importance of version control, clear communication, and the ability to merge different coding styles and perspectives into a cohesive final product. These experiences sharpened my ability to operate effectively in team settings, balancing leadership and cooperation depending on the needs of the project.
+
+Equally important has been my development in communicating with stakeholders—translating technical challenges into clear, actionable language. I have engaged in requirements gathering, status reporting, and solution presentations, always keeping the end user in mind. This skill has proven essential not only for ensuring that technical solutions meet business needs but also for establishing trust and clarity between technical and non-technical audiences.
+
+Growth Through Coursework and ePortfolio Development
+From my first introductory programming assignments to the complex, multi-component projects in my capstone, I have consistently challenged myself to take on work that demonstrates both depth and breadth of skill. Building my ePortfolio required me to revisit and enhance prior work, which reinforced my understanding of software engineering principles and gave me the opportunity to implement industry best practices.
+
+One of the most valuable aspects of this process has been seeing my progression—from writing functional code to designing maintainable, modular, and scalable solutions. The act of improving my artifacts was not just about cleaner code; it was about developing the mindset of a professional who anticipates future requirements, considers the user’s needs, and applies systematic approaches to problem-solving.
+
+Collaborating in a Team Environment
+Team-based projects in my coursework taught me the importance of collaboration, version control, and role adaptability. I worked in environments where tasks were divided across team members, requiring consistent integration of different coding styles and ideas. Using tools like Git, I learned how to merge contributions smoothly, resolve conflicts, and maintain code integrity. These experiences also helped me understand that successful collaboration depends on clear communication, mutual respect, and an openness to feedback—skills I will carry into any professional setting.
+
+Communicating with Stakeholders
+My projects often involved translating technical concepts for non-technical audiences, such as explaining database structures, system limitations, or algorithm efficiency to stakeholders with varying levels of technical expertise. This taught me to use precise but accessible language, highlight the “why” behind technical decisions, and ensure that project deliverables aligned with stakeholder needs. In real-world development, this skill is just as critical as writing quality code, because even the most robust system is ineffective if its value is not understood by those it serves.
+
+Data Structures and Algorithms
+Throughout the program, I gained a deep appreciation for the importance of algorithmic efficiency and proper data structure selection. I learned how to weigh trade-offs in performance, scalability, and memory usage. These skills were particularly evident in my capstone work, where I implemented optimized database queries and filtering algorithms to improve application responsiveness. Understanding these concepts allows me to design systems that not only work but work efficiently under real-world constraints.
+
+Software Engineering and Database Skills
+My coursework in software engineering emphasized the value of modular design, code reusability, and systematic testing. I applied these principles in both front-end and back-end contexts, ensuring that my applications were both functional and maintainable. In database-related projects, I gained experience with both SQL and NoSQL systems, focusing on schema design, query optimization, and data integrity. Integrating databases into larger software solutions allowed me to bridge the gap between persistent data storage and dynamic application behavior.
+
+Security Awareness
+Security considerations were embedded in many of my projects, reinforcing that security is not a final step but an ongoing requirement in every stage of development. From managing authentication to preventing SQL injection and securing sensitive data in transit and at rest, I learned to adopt a proactive security mindset. This approach is critical for protecting both the organization’s assets and the trust of its users.
+
+How My Artifacts Fit Together
+The artifacts in my ePortfolio collectively showcase the range of my skills:
+
+Algorithms and Data Structures: Demonstrating database integration with optimized querying and interactive data visualization.
+
+Software Engineering and Design: Showing modular, user-focused application development with robust input validation and error handling.
+
+Databases: Illustrating secure, efficient, and scalable database interaction within software systems.
+
+Together, these artifacts form a cohesive narrative of my abilities: I can design and implement full-stack solutions that are efficient, maintainable, secure, and user-oriented. Each artifact builds on the same professional values—clarity, adaptability, and quality—that I will bring to my future work.
+
+
+# <pre align="center">Enhancement One: Software Design and Engineering</pre>
+
+## <pre align="center">CS 410 Assignment</pre>
+
+Located in the **Software-Engineering-and-Design** Folder
+
+
+
+
+
+
+
+The artifact I selected from CS-410: Software Reverse Engineering is an in-depth project focused on analyzing and deconstructing a software program using both static and dynamic analysis techniques. This project required me to reverse engineer a compiled application by interpreting low-level code and reconstructing its high-level logic. I used tools to disassemble and examine the executable, which allowed me to understand how the software functioned without access to the original source code. Through this process, I learned to think critically and carefully dissect software in a way that exposed its logic, functions, and potential vulnerabilities.
+I decided to include this project in my ePortfolio because it represents a unique and highly relevant skill set in the world of software engineering. Being able to reverse engineer a program and analyze its behavior, especially without having access to the source code, is an important ability in fields like cybersecurity and legacy software maintenance. This artifact shows how I can look at software from a forensic perspective, figure out what it does and how it works, and communicate those findings in a clear, technical manner.
+
+In preparing the project for my ePortfolio, I enhanced the original version by expanding the documentation and making the structure of the report easier to follow. I reorganized the findings so that the conclusions were grouped by function, rather than just listed in the order I discovered them. I also went back into the decompiled code to add inline comments that explained what each block of code was doing, which made the report much more accessible to readers who may not be familiar with reverse engineering. Working on this artifact helped me meet several key course outcomes, especially in terms of critical thinking, technical documentation, and applying systematic problem-solving techniques. Improving the clarity and structure of my analysis, I also showed my ability to communicate complex information in a way that’s easier to understand and useful to others. These enhancements made the project more professional and polished, which is exactly what I wanted for my portfolio. Looking back on the process, I realized how much I’ve grown since I first worked on this project. Initially, I struggled to understand some of the lower-level binary patterns and how they relate to the software's higher-level logic. But by sticking with it and using the tools and knowledge I gained throughout the course, I built up the confidence to work through those challenges. I also came to appreciate how important clear documentation is, especially in technical fields where others may need to understand and build upon your work.
+
+The original version of this program was a straightforward console application that printed a hardcoded multiplication table from 1 to 9. All of the logic was contained inside the <code>main()</code> function, which simply looped through two variables and displayed the results. While it worked, it lacked flexibility, had no input handling, and offered no real-world usability beyond the fixed output. If the user wanted a different range or to store results, the code would have to be rewritten manually.
+
+For the enhancement, my goal was to transform this simple script into a **more dynamic, user-driven, and maintainable application** while demonstrating cleaner programming practices. I began by restructuring the program into multiple, clearly defined functions:
+
+- <code>displayMultiplicationTable(int start, int end)</code> — Responsible only for generating and displaying the multiplication table for a given range. This separation made the logic easier to test and maintain.
+
+- <code>getValidatedInput(const string& prompt)</code> — Added to ensure that all inputs were valid integers. It uses cin.fail() checks, clears error flags, and flushes the input buffer so the program never crashes on bad input. This greatly improved the program’s **robustness and user-friendliness.**
+
+- <code>saveTableToFile(int start, int end, const string& filename)</code> — A new feature that lets the user store the generated table in a text file. It validates file access, writes the formatted table, and gives a confirmation message once saving is complete.
+
+In addition to modularization, I expanded the program’s **customization capabilities.** Instead of being locked to the 1–9 range, the user is now prompted to enter a start and end value for the multiplication table. This flexibility makes the program useful in more contexts whether for basic math drills, larger multiplication sets, or even partial ranges for focused practice. I also implemented a **logical check** to ensure that the start value is not greater than the end value, providing immediate feedback if the range is invalid.
+
+From a user experience perspective, I added an interactive prompt at the end asking whether the table should be saved to a file. This additional layer of choice makes the program feel more like a practical tool than just a coding exercise. For instance, a user can quickly generate a large table and store it for later reference, study, or printing.
+
+Introducing **error handling, file I/O**, and **structured design**, the enhanced version is far more professional and maintainable. The improvements not only demonstrate my ability to **refactor procedural code into a modular structure**, but also highlight skills in **input validation, file operations, and user interaction design**. This transformation turned what was once a static
