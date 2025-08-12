@@ -137,9 +137,9 @@ water, mountain, disaster rescue) were directly embedded within the event handle
 callbacks. This approach made the logic harder to maintain and reuse. In the enhanced
 version, I modularized these queries by creating dedicated functions like
 <code>query_water_rescue()</code>, <code>query_mountain_rescue()</code>, and <code>query_disaster_rescue().</code>
-
 Each function returns a structured MongoDB query in the form of a Python dictionary. This
 change improved the algorithm’s clarity and reusability.
+
 3. **Efficient Use of Data Structures:**
 I used Python’s dictionary and list structures to represent complex query conditions with
 logical operators like <code>$and</code>, <code>$in</code>, <code>$gte</code>, and <code>$lte</code>. For example, breeds eligible for water
