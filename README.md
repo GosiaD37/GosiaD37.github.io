@@ -204,7 +204,7 @@ development.
   <img src="ePortfolio Pictures/1000004985.jpg">
 </center>
 
-Located in the **Databases** Folder
+<code>You can see the orginal code and enhanced one <a href="https://github.com/GosiaD37/GosiaD37.github.io/tree/main/Databases">here</a>.</code>  
 
 For the final category, I selected a contact management system that I initially created in CS-405.
 It tests the behavior of a dynamic collection using the <code>std::vector</code> class and the Google Test
