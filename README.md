@@ -98,6 +98,87 @@ From a user experience perspective, I added an interactive prompt at the end ask
 
 Introducing **error handling, file I/O**, and **structured design**, the enhanced version is far more professional and maintainable. The improvements not only demonstrate my ability to **refactor procedural code into a modular structure**, but also highlight skills in **input validation, file operations, and user interaction design**. This transformation turned what was once a static
 
+# <pre align="center">Enhancement Two: Algorithms and Data Structures</pre>
+
+## <pre align="center">CS 340</pre>
+
+Located in the **Algorithms-and-Data-Structures** Folder
+
+The second artifact I selected for my ePortfolio is a web-based CRUD (Create, Read, Update,
+Delete) application originally developed in CS-340: Client-Server Development. This project
+was created using Python, Flask, and MongoDB, with a Dash web interface to visualize animal
+shelter data. The application provides interactive features for users to view and filter animals
+suited for rescue tasks, such as water or mountain rescue. The initial version was completed
+during the course, but I enhanced and restructured it to better demonstrate my evolving technical
+skills.
+I chose to include this artifact because it reflects my growth as a full-stack developer, especially
+in applying algorithms and data structure concepts in real-world scenarios. While the original
+version functioned correctly, its logic for querying and filtering data was tightly coupled to the
+event callbacks and lacked modularity. In the enhanced version, I made several improvements,
+particularly to the algorithms used for filtering and the data structures used to represent
+conditions and operations.
+
+## Key Enhancements ##
+
+1. **Modular Algorithm Design:**
+In the original version, MongoDB queries for filtering animals based on rescue type (e.g.,
+water, mountain, disaster rescue) were directly embedded within the event handler
+callbacks. This approach made the logic harder to maintain and reuse. In the enhanced
+version, I modularized these queries by creating dedicated functions like
+query_water_rescue(), query_mountain_rescue(), and query_disaster_rescue(). Each
+function returns a structured MongoDB query in the form of a Python dictionary. This
+change improved the algorithm’s clarity and reusability.
+2. **Efficient Use of Data Structures:**
+I used Python’s dictionary and list structures to represent complex query conditions with
+logical operators like $and, $in, $gte, and $lte. For example, breeds eligible for water
+rescue are stored as a list within a dictionary condition using the $in operator. This
+approach makes the code more flexible and aligns with best practices for managing datadriven logic.
+3. **Code Readability and Maintainability:**
+I added structured inline comments, improved function naming conventions, and
+introduced visual separators to make the code easier to follow. These improvements help
+others (and my future self) understand the logic more quickly and make future updates
+less error prone.
+4. **UI and Layout Enhancements:**
+Although the main focus was on algorithm and data structure improvements, I also
+enhanced the UI consistency by refining layout structure and visual hierarchy. I
+reorganized the layout components and updated the placement of interactive elements
+like maps, dropdowns, and data tables to improve user experience.
+
+This artifact demonstrates my skills in creating modular, maintainable code and in designing
+custom algorithms that solve a practical problem, filtering animal data for specific rescue tasks.
+The enhancements I made clearly show my ability to transform procedural logic into modular
+algorithms, while effectively using Python’s built-in data structures to represent complex, nested
+conditions. At the beginning of the course, I planned to meet the course outcome related to
+designing and analyzing algorithms and data structures for efficiency and maintainability. This
+enhancement meets that outcome by:
+- Refactoring procedural logic into discrete algorithmic functions,
+- Using structured data (dicts and lists) for query construction,
+- Supporting scalable, maintainable code practices.
+
+At this time, I have no updates to my outcome-coverage plans, as this enhancement fully
+supports my original goal.
+Enhancing this artifact taught me the value of writing modular code and how critical it is to
+separate logic from implementation details. By extracting logic into standalone functions, I now
+better understand how to organize software components for readability, reuse, and testing.
+A key challenge I faced was determining how to restructure the query logic without breaking
+existing functionality. Testing each enhancement incrementally helped ensure correctness. I also
+had to ensure that the logic accurately filtered animals by age, sex, and breed requiring careful
+use of MongoDB’s query syntax.
+Ultimately, this enhancement strengthened both my technical and problem-solving skills. It
+transformed a working project into a more professional and maintainable application that
+demonstrates my ability to work with algorithms, data structures, and full-stack web
+development.
+
+
+
+
+
+
+
+
+
+
+
 ### **Code Review Video:**
 
 #### *Category One: Software Engineering and Design*
