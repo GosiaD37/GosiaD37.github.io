@@ -102,6 +102,12 @@ Introducing **error handling, file I/O**, and **structured design**, the enhance
 
 ## <pre align="center">CS 340</pre>
 
+<center>
+  <img src="ePortfolio Pictures/1000004986.jpg">
+</center>
+
+
+
 Located in the **Algorithms-and-Data-Structures** Folder
 
 The second artifact I selected for my ePortfolio is a web-based CRUD (Create, Read, Update,
@@ -170,6 +176,15 @@ demonstrates my ability to work with algorithms, data structures, and full-stack
 development.
 
 
+# <pre align="center">Enhancement Three: Databases</pre>
+
+## <pre align="center">CS 405</pre>
+
+<center>
+  <img src="ePortfolio Pictures/1000004986.jpg">
+</center>
+
+Located in the **Databases** Folder
 
 
 
