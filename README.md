@@ -1,3 +1,7 @@
+![Custom Badge](https://img.shields.io/badge/Status-Complete-blueviolet?style=flat-square)
+
+
+
 <p align="center">
   <img src="ePortfolio Pictures/Screenshot_20250715_073506_Picsart.jpg" alt="Profile Picture" width="200" height="200" style="border-radius: 50%;">
 </p>
