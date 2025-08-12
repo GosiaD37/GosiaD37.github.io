@@ -1,5 +1,5 @@
 <center>
-  <img src="profile.jpg" height=200 width=200>
+  <img src="ePortfolio Pictures/Screenshot_20250715_073506_Picsart.jpg" height=200 width=200>
 </center>
 Malgorzata Debska
   
