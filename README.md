@@ -123,7 +123,7 @@ Introducing **error handling, file I/O**, and **structured design**, the enhance
 
 
 
-Located in the **Algorithms-and-Data-Structures** Folder
+<code>You can see the orginal and enhanced code <a href="https://github.com/GosiaD37/GosiaD37.github.io/tree/main/Algorithms%20and%20Data%20Structures">here</a>.</code>  
 
 The second artifact I selected for my ePortfolio is a web-based CRUD (Create, Read, Update,
 Delete) application originally developed in CS-340: Client-Server Development. This project
