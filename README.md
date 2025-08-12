@@ -64,6 +64,11 @@ Together, these artifacts form a cohesive narrative of my abilities: I can desig
 
 ## <pre align="center">CS 410 Assignment</pre>
 
+
+<center>
+  <img src="ePortfolio Pictures/1000004989.jpg">
+</center>
+
 Located in the **Software-Engineering-and-Design** Folder
 
 
@@ -92,3 +97,19 @@ In addition to modularization, I expanded the program’s **customization capabi
 From a user experience perspective, I added an interactive prompt at the end asking whether the table should be saved to a file. This additional layer of choice makes the program feel more like a practical tool than just a coding exercise. For instance, a user can quickly generate a large table and store it for later reference, study, or printing.
 
 Introducing **error handling, file I/O**, and **structured design**, the enhanced version is far more professional and maintainable. The improvements not only demonstrate my ability to **refactor procedural code into a modular structure**, but also highlight skills in **input validation, file operations, and user interaction design**. This transformation turned what was once a static
+
+### **Code Review Video:**
+
+#### *Category One: Software Engineering and Design*
+#### *Category Two: Algorithms and Data Structures*
+#### *Category Three: Databases*
+
+Below is a link directly to my YouTube page where I uploaded my Code Review where I addressed the following:
+
+[x] Existing functionality: Walk through and identify what the code is, what it does, and how it works.
+
+[x] Code Analysis: Review the code structure, look for code efficiencies, and check for comments and code documentation. Explain your findings.
+
+[x] Look for enhancement: Walk through and explain planned enhancements. 
+
+This video was built using (link to the video put here).
