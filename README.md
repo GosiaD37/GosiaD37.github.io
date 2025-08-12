@@ -28,41 +28,46 @@ Throughout my coursework, I have worked on projects that reflect the real-world 
 
 Equally important has been my development in communicating with stakeholders—translating technical challenges into clear, actionable language. I have engaged in requirements gathering, status reporting, and solution presentations, always keeping the end user in mind. This skill has proven essential not only for ensuring that technical solutions meet business needs but also for establishing trust and clarity between technical and non-technical audiences.
 
-Growth Through Coursework and ePortfolio Development
+**Growth Through Coursework and ePortfolio Development**
+
 From my first introductory programming assignments to the complex, multi-component projects in my capstone, I have consistently challenged myself to take on work that demonstrates both depth and breadth of skill. Building my ePortfolio required me to revisit and enhance prior work, which reinforced my understanding of software engineering principles and gave me the opportunity to implement industry best practices.
 
 One of the most valuable aspects of this process has been seeing my progression—from writing functional code to designing maintainable, modular, and scalable solutions. The act of improving my artifacts was not just about cleaner code; it was about developing the mindset of a professional who anticipates future requirements, considers the user’s needs, and applies systematic approaches to problem-solving.
 
-Collaborating in a Team Environment
+**Collaborating in a Team Environment**
+
 Team-based projects in my coursework taught me the importance of collaboration, version control, and role adaptability. I worked in environments where tasks were divided across team members, requiring consistent integration of different coding styles and ideas. Using tools like Git, I learned how to merge contributions smoothly, resolve conflicts, and maintain code integrity. These experiences also helped me understand that successful collaboration depends on clear communication, mutual respect, and an openness to feedback—skills I will carry into any professional setting.
 
-Communicating with Stakeholders
+**Communicating with Stakeholders**
+
 My projects often involved translating technical concepts for non-technical audiences, such as explaining database structures, system limitations, or algorithm efficiency to stakeholders with varying levels of technical expertise. This taught me to use precise but accessible language, highlight the “why” behind technical decisions, and ensure that project deliverables aligned with stakeholder needs. In real-world development, this skill is just as critical as writing quality code, because even the most robust system is ineffective if its value is not understood by those it serves.
 
-Data Structures and Algorithms
+**Data Structures and Algorithms**
+
 Throughout the program, I gained a deep appreciation for the importance of algorithmic efficiency and proper data structure selection. I learned how to weigh trade-offs in performance, scalability, and memory usage. These skills were particularly evident in my capstone work, where I implemented optimized database queries and filtering algorithms to improve application responsiveness. Understanding these concepts allows me to design systems that not only work but work efficiently under real-world constraints.
 
-Software Engineering and Database Skills
+**Software Engineering and Database Skills**
 My coursework in software engineering emphasized the value of modular design, code reusability, and systematic testing. I applied these principles in both front-end and back-end contexts, ensuring that my applications were both functional and maintainable. In database-related projects, I gained experience with both SQL and NoSQL systems, focusing on schema design, query optimization, and data integrity. Integrating databases into larger software solutions allowed me to bridge the gap between persistent data storage and dynamic application behavior.
 
-Security Awareness
+**Security Awareness**
 Security considerations were embedded in many of my projects, reinforcing that security is not a final step but an ongoing requirement in every stage of development. From managing authentication to preventing SQL injection and securing sensitive data in transit and at rest, I learned to adopt a proactive security mindset. This approach is critical for protecting both the organization’s assets and the trust of its users.
 
-How My Artifacts Fit Together
+## *How My Artifacts Fit Together*  ##
+  
 The artifacts in my ePortfolio collectively showcase the range of my skills:
 
-Algorithms and Data Structures: Demonstrating database integration with optimized querying and interactive data visualization.
+**Algorithms and Data Structures:** Demonstrating database integration with optimized querying and interactive data visualization.
 
-Software Engineering and Design: Showing modular, user-focused application development with robust input validation and error handling.
+**Software Engineering and Design:** Showing modular, user-focused application development with robust input validation and error handling.
 
-Databases: Illustrating secure, efficient, and scalable database interaction within software systems.
+**Databases:** Illustrating secure, efficient, and scalable database interaction within software systems.
 
 Together, these artifacts form a cohesive narrative of my abilities: I can design and implement full-stack solutions that are efficient, maintainable, secure, and user-oriented. Each artifact builds on the same professional values—clarity, adaptability, and quality—that I will bring to my future work.
 
 
 # <pre align="center">Enhancement One: Software Design and Engineering</pre>
 
-## <pre align="center">CS 410 Assignment</pre>
+## <pre align="center">CS 410</pre>
 
 
 <center>
@@ -88,7 +93,7 @@ For the enhancement, my goal was to transform this simple script into a **more d
 
 - <code>displayMultiplicationTable(int start, int end)</code> — Responsible only for generating and displaying the multiplication table for a given range. This separation made the logic easier to test and maintain.
 
-- <code>getValidatedInput(const string& prompt)</code> — Added to ensure that all inputs were valid integers. It uses cin.fail() checks, clears error flags, and flushes the input buffer so the program never crashes on bad input. This greatly improved the program’s **robustness and user-friendliness.**
+- <code>getValidatedInput(const string& prompt)</code> — Added to ensure that all inputs were valid integers. It uses <code>cin.fail()</code> checks, clears error flags, and flushes the input buffer so the program never crashes on bad input. This greatly improved the program’s **robustness and user-friendliness.**
 
 - <code>saveTableToFile(int start, int end, const string& filename)</code> — A new feature that lets the user store the generated table in a text file. It validates file access, writes the formatted table, and gives a confirmation message once saving is complete.
 
@@ -131,20 +136,21 @@ In the original version, MongoDB queries for filtering animals based on rescue t
 water, mountain, disaster rescue) were directly embedded within the event handler
 callbacks. This approach made the logic harder to maintain and reuse. In the enhanced
 version, I modularized these queries by creating dedicated functions like
-query_water_rescue(), query_mountain_rescue(), and query_disaster_rescue(). Each
-function returns a structured MongoDB query in the form of a Python dictionary. This
+<code>query_water_rescue()</code>, <code>query_mountain_rescue()</code>, and <code>query_disaster_rescue().</code>
+
+Each function returns a structured MongoDB query in the form of a Python dictionary. This
 change improved the algorithm’s clarity and reusability.
-2. **Efficient Use of Data Structures:**
+3. **Efficient Use of Data Structures:**
 I used Python’s dictionary and list structures to represent complex query conditions with
-logical operators like $and, $in, $gte, and $lte. For example, breeds eligible for water
+logical operators like <code>$and</code>, <code>$in</code>, <code>$gte</code>, and <code>$lte</code>. For example, breeds eligible for water
 rescue are stored as a list within a dictionary condition using the $in operator. This
 approach makes the code more flexible and aligns with best practices for managing datadriven logic.
-3. **Code Readability and Maintainability:**
+4. **Code Readability and Maintainability:**
 I added structured inline comments, improved function naming conventions, and
 introduced visual separators to make the code easier to follow. These improvements help
 others (and my future self) understand the logic more quickly and make future updates
 less error prone.
-4. **UI and Layout Enhancements:**
+5. **UI and Layout Enhancements:**
 Although the main focus was on algorithm and data structure improvements, I also
 enhanced the UI consistency by refining layout structure and visual hierarchy. I
 reorganized the layout components and updated the placement of interactive elements
@@ -181,10 +187,67 @@ development.
 ## <pre align="center">CS 405</pre>
 
 <center>
-  <img src="ePortfolio Pictures/1000004986.jpg">
+  <img src="ePortfolio Pictures/1000004985.jpg">
 </center>
 
 Located in the **Databases** Folder
+
+For the final category, I selected a contact management system that I initially created in CS-405.
+It tests the behavior of a dynamic collection using the std::vector class and the Google Test
+framework. This test suite is designed to verify operations like adding elements, resizing the
+collection, clearing values, checking capacity, and handling exceptions. Although not tied to a
+formal database system, the project simulates record-based operations similar to basic CRUD
+functionality found in contact or data management systems, making it relevant to the Databases
+category.
+
+I selected this artifact for my ePortfolio because it demonstrates my skills in object-oriented
+programming, testing, and defensive programming all critical competencies in software
+development. The original version of the test suite (test.cpp) functioned correctly but lacked
+clarity, structure, and coverage in certain key areas. Specifically, it had minimal inline
+documentation, limited exception handling, and did not fully test edge cases like exceeding
+maximum capacity or accessing out-of-bound elements.
+
+As part of this milestone, I significantly improved the artifact by enhancing the codebase in
+NEWtest.cpp. To strengthen the original code, I made several numbers of key improvements:
+
+- I added clear and detailed inline documentation throughout the test suite to explain the
+purpose and logic of each function and test case.
+- I expanded exception handling by writing tests that explicitly check for errors, such as
+accessing invalid indices (std::out_of_range) and attempting to reserve memory beyond
+the collection’s maximum capacity (std::length_error).
+- I incorporated defensive programming practices, such as validating preconditions,
+confirming expected outcomes after each operation, and designing tests that handle edge
+cases gracefully.
+- To increase test coverage and scalability, I introduced parameterized tests that
+automatically run multiple scenarios using different input sizes (0, 1, 5, and 10).
+- I improved the readability of the code by refining test case names to clearly reflect their
+purpose, such as ResizeIncreasesCollectionSize and AssignValuesToCollection.
+- I reinforced proper memory management by using std::unique_ptr for the collection,
+along with structured setup and teardown methods to ensure a clean test environment for
+each case.
+
+These enhancements significantly improved the clarity, maintainability, and reliability of the
+code. They also reflect my understanding of software engineering best practices and my ability
+to apply those practices in a meaningful way.
+This artifact directly supports the course outcomes I set out to achieve in Module One. I applied
+modular design, test-driven development principles, and robust error handling. The
+enhancements I made helped me go beyond simply writing tests I learned to think critically
+about edge cases, failure conditions, and the long-term sustainability of the code. At this point, I
+do not have any updates to my outcome-coverage plans, as this artifact fully demonstrates the
+skills I intended to strengthen.
+
+Reflecting on the enhancement process, I gained a deeper understanding of how valuable
+thorough testing and thoughtful design can be in ensuring software quality. One of the challenges
+I faced was determining how to best simulate database-like operations within a C++ environment
+that doesn't use a database engine. I focused on core behaviors like adding entries, resizing
+collections, and validating boundaries, and ensured these were covered by meaningful,
+automated tests.
+
+This process helped me transition from simply making code “work” to engineering code that is
+reliable, readable, and resilient. It reinforced the idea that strong testing and defensive design
+aren’t optional, they are essential to building professional-grade software. Overall, this artifact
+reflects not just my technical growth but also my evolving mindset as a developer who prioritizes
+quality, clarity, and long-term maintainability
 
 
 
