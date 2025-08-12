@@ -1,14 +1,8 @@
-<div style="background-color:#f0f8ff; padding:10px; border-radius:8px;">
-  <h2>My Colorful Section</h2>
-  <p>This section has a light blue background with some padding and rounded corners.</p>
-</div>
-
-
-
-
 <p align="center">
   <img src="ePortfolio Pictures/Screenshot_20250715_073506_Picsart.jpg" alt="Profile Picture" width="200" height="200" style="border-radius: 50%;">
 </p>
+
+
 
 # Malgorzata Debska
 
