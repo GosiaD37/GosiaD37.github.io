@@ -1,4 +1,8 @@
-![Custom Badge](https://img.shields.io/badge/Status-Complete-blueviolet?style=flat-square)
+<div style="background-color:#f0f8ff; padding:10px; border-radius:8px;">
+  <h2>My Colorful Section</h2>
+  <p>This section has a light blue background with some padding and rounded corners.</p>
+</div>
+
 
 
 
