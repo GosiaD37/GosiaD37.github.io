@@ -204,7 +204,7 @@ development.
 Located in the **Databases** Folder
 
 For the final category, I selected a contact management system that I initially created in CS-405.
-It tests the behavior of a dynamic collection using the std::vector class and the Google Test
+It tests the behavior of a dynamic collection using the <code>std::vector</code> class and the Google Test
 framework. This test suite is designed to verify operations like adding elements, resizing the
 collection, clearing values, checking capacity, and handling exceptions. Although not tied to a
 formal database system, the project simulates record-based operations similar to basic CRUD
@@ -213,7 +213,7 @@ category.
 
 I selected this artifact for my ePortfolio because it demonstrates my skills in object-oriented
 programming, testing, and defensive programming all critical competencies in software
-development. The original version of the test suite (test.cpp) functioned correctly but lacked
+development. The original version of the test suite <code>(test.cpp)</code> functioned correctly but lacked
 clarity, structure, and coverage in certain key areas. Specifically, it had minimal inline
 documentation, limited exception handling, and did not fully test edge cases like exceeding
 maximum capacity or accessing out-of-bound elements.
@@ -224,8 +224,8 @@ NEWtest.cpp. To strengthen the original code, I made several numbers of key impr
 - I added clear and detailed inline documentation throughout the test suite to explain the
 purpose and logic of each function and test case.
 - I expanded exception handling by writing tests that explicitly check for errors, such as
-accessing invalid indices (std::out_of_range) and attempting to reserve memory beyond
-the collection’s maximum capacity (std::length_error).
+accessing invalid indices <code>(std::out_of_range)</code> and attempting to reserve memory beyond
+the collection’s maximum capacity <code>(std::length_error).</code>
 - I incorporated defensive programming practices, such as validating preconditions,
 confirming expected outcomes after each operation, and designing tests that handle edge
 cases gracefully.
@@ -233,7 +233,7 @@ cases gracefully.
 automatically run multiple scenarios using different input sizes (0, 1, 5, and 10).
 - I improved the readability of the code by refining test case names to clearly reflect their
 purpose, such as ResizeIncreasesCollectionSize and AssignValuesToCollection.
-- I reinforced proper memory management by using std::unique_ptr for the collection,
+- I reinforced proper memory management by using <code>std::unique_ptr</code> for the collection,
 along with structured setup and teardown methods to ensure a clean test environment for
 each case.
 
