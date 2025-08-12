@@ -231,11 +231,11 @@ The original project served as a demonstration of test-driven development, dynam
 As part of this milestone, I significantly improved the artifact by enhancing the codebase in NEWtest.cpp. To strengthen the original code, I made several numbers of key improvements:
 
 I added clear and detailed inline documentation throughout the test suite to explain the purpose and logic of each function and test case.
-I expanded exception handling by writing tests that explicitly check for errors, such as accessing invalid indices (std::out_of_range) and attempting to reserve memory beyond the collection’s maximum capacity (std::length_error).
+I expanded exception handling by writing tests that explicitly check for errors, such as accessing invalid indices <code>(std::out_of_range)</code> and attempting to reserve memory beyond the collection’s maximum capacity <code>(std::length_error).</code>
 I incorporated defensive programming practices, such as validating preconditions, confirming expected outcomes after each operation, and designing tests that handle edge cases gracefully.
 To increase test coverage and scalability, I introduced parameterized tests that automatically run multiple scenarios using different input sizes (0, 1, 5, and 10).
-I improved the readability of the code by refining test case names to clearly reflect their purpose, such as ResizeIncreasesCollectionSize and AssignValuesToCollection.
-I reinforced proper memory management by using std::unique_ptr for the collection, along with structured setup and teardown methods to ensure a clean test environment for each case.
+I improved the readability of the code by refining test case names to clearly reflect their purpose, such as <code>ResizeIncreasesCollectionSize</code> and <code>AssignValuesToCollection.</code>
+I reinforced proper memory management by using <code>std::unique_ptr</code> for the collection, along with structured setup and teardown methods to ensure a clean test environment for each case.
 </p>
 
 <p>
