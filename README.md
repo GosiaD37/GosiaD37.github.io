@@ -26,7 +26,7 @@
 
 
 
-Over the past three years in the Computer Science program, I have experienced a truly transformative journey—one that has challenged me to grow as a problem solver, a collaborator, and a professional in the field of technology. What began as an interest in understanding how software works has evolved into a deep, multifaceted skill set spanning software development, algorithms, databases, security, and effective communication with diverse stakeholders.
+Over the past three years in the Computer Science program, I have experienced a truly transformative journey, one that has challenged me to grow as a problem solver, a collaborator, and a professional in the field of technology. What began as an interest in understanding how software works has evolved into a deep, multifaceted skill set spanning software development, algorithms, databases, security, and effective communication with diverse stakeholders.
 
 Throughout my coursework, I have worked on projects that reflect the real-world complexity of computer science. In collaborative environments, I learned the importance of version control, clear communication, and the ability to merge different coding styles and perspectives into a cohesive final product. These experiences sharpened my ability to operate effectively in team settings, balancing leadership and cooperation depending on the needs of the project.
 
@@ -40,7 +40,7 @@ One of the most valuable aspects of this process has been seeing my progression�
 
 **Collaborating in a Team Environment**
 
-Team-based projects in my coursework taught me the importance of collaboration, version control, and role adaptability. I worked in environments where tasks were divided across team members, requiring consistent integration of different coding styles and ideas. Using tools like Git, I learned how to merge contributions smoothly, resolve conflicts, and maintain code integrity. These experiences also helped me understand that successful collaboration depends on clear communication, mutual respect, and an openness to feedback—skills I will carry into any professional setting.
+Team-based projects in my coursework taught me the importance of collaboration, version control, and role adaptability. I worked in environments where tasks were divided across team members, requiring consistent integration of different coding styles and ideas. Using tools like Git, I learned how to merge contributions smoothly, resolve conflicts, and maintain code integrity. These experiences also helped me understand that successful collaboration depends on clear communication, mutual respect, and an openness to feedback, skills I will carry into any professional setting.
 
 **Communicating with Stakeholders**
 
@@ -62,11 +62,11 @@ The artifacts in my ePortfolio collectively showcase the range of my skills:
 
 **Algorithms and Data Structures:** Demonstrating database integration with optimized querying and interactive data visualization.
 
-**Software Engineering and Design:** Showing modular, user-focused application development with robust input validation and error handling.
+**Software Engineering and Design:** Showing modular, user focused application development with robust input validation and error handling.
 
 **Databases:** Illustrating secure, efficient, and scalable database interaction within software systems.
 
-Together, these artifacts form a cohesive narrative of my abilities: I can design and implement full-stack solutions that are efficient, maintainable, secure, and user-oriented. Each artifact builds on the same professional values—clarity, adaptability, and quality—that I will bring to my future work.
+Together, these artifacts form a cohesive narrative of my abilities: I can design and implement full-stack solutions that are efficient, maintainable, secure, and user-oriented. Each artifact builds on the same professional values, clarity, adaptability, and quality, that I will bring to my future work.
 
 
 # <pre align="center">Enhancement One: Software Design and Engineering</pre>
@@ -78,7 +78,7 @@ Together, these artifacts form a cohesive narrative of my abilities: I can desig
   <img src="ePortfolio Pictures/1000004989.jpg">
 </center>
 
-<code>You can see the orginal code and enhanced one <a href="https://github.com/GosiaD37/GosiaD37.github.io/tree/main/Software%20Engineering%20and%20Design
+<code>You can see the orginal and enhanced code <a href="https://github.com/GosiaD37/GosiaD37.github.io/tree/main/Software%20Engineering%20and%20Design
 ">here</a>.</code>  
 
 
@@ -90,7 +90,7 @@ Together, these artifacts form a cohesive narrative of my abilities: I can desig
 The artifact I selected from CS-410: Software Reverse Engineering is an in-depth project focused on analyzing and deconstructing a software program using both static and dynamic analysis techniques. This project required me to reverse engineer a compiled application by interpreting low-level code and reconstructing its high-level logic. I used tools to disassemble and examine the executable, which allowed me to understand how the software functioned without access to the original source code. Through this process, I learned to think critically and carefully dissect software in a way that exposed its logic, functions, and potential vulnerabilities.
 I decided to include this project in my ePortfolio because it represents a unique and highly relevant skill set in the world of software engineering. Being able to reverse engineer a program and analyze its behavior, especially without having access to the source code, is an important ability in fields like cybersecurity and legacy software maintenance. This artifact shows how I can look at software from a forensic perspective, figure out what it does and how it works, and communicate those findings in a clear, technical manner.
 
-In preparing the project for my ePortfolio, I enhanced the original version by expanding the documentation and making the structure of the report easier to follow. I reorganized the findings so that the conclusions were grouped by function, rather than just listed in the order I discovered them. I also went back into the decompiled code to add inline comments that explained what each block of code was doing, which made the report much more accessible to readers who may not be familiar with reverse engineering. Working on this artifact helped me meet several key course outcomes, especially in terms of critical thinking, technical documentation, and applying systematic problem-solving techniques. Improving the clarity and structure of my analysis, I also showed my ability to communicate complex information in a way that’s easier to understand and useful to others. These enhancements made the project more professional and polished, which is exactly what I wanted for my portfolio. Looking back on the process, I realized how much I’ve grown since I first worked on this project. Initially, I struggled to understand some of the lower-level binary patterns and how they relate to the software's higher-level logic. But by sticking with it and using the tools and knowledge I gained throughout the course, I built up the confidence to work through those challenges. I also came to appreciate how important clear documentation is, especially in technical fields where others may need to understand and build upon your work.
+In preparing the project for my ePortfolio, I enhanced the original version by expanding the documentation and making the structure of the report easier to follow. I reorganized the findings so that the conclusions were grouped by function, rather than just listed in the order I discovered them. I also went back into the decompiled code to add inline comments that explained what each block of code was doing, which made the report much more accessible to readers who may not be familiar with reverse engineering. Working on this artifact helped me meet several key course outcomes, especially in terms of critical thinking, technical documentation, and applying systematic problem solving techniques. Improving the clarity and structure of my analysis, I also showed my ability to communicate complex information in a way that’s easier to understand and useful to others. These enhancements made the project more professional and polished, which is exactly what I wanted for my portfolio. Looking back on the process, I realized how much I’ve grown since I first worked on this project. Initially, I struggled to understand some of the lower level binary patterns and how they relate to the software's higher-level logic. But by sticking with it and using the tools and knowledge I gained throughout the course, I built up the confidence to work through those challenges. I also came to appreciate how important clear documentation is, especially in technical fields where others may need to understand and build upon your work.
 
 The original version of this program was a straightforward console application that printed a hardcoded multiplication table from 1 to 9. All of the logic was contained inside the <code>main()</code> function, which simply looped through two variables and displayed the results. While it worked, it lacked flexibility, had no input handling, and offered no real-world usability beyond the fixed output. If the user wanted a different range or to store results, the code would have to be rewritten manually.
 
@@ -186,7 +186,7 @@ A key challenge I faced was determining how to restructure the query logic witho
 existing functionality. Testing each enhancement incrementally helped ensure correctness. I also
 had to ensure that the logic accurately filtered animals by age, sex, and breed requiring careful
 use of MongoDB’s query syntax.
-Ultimately, this enhancement strengthened both my technical and problem-solving skills. It
+Ultimately, this enhancement strengthened both my technical and problem solving skills. It
 transformed a working project into a more professional and maintainable application that
 demonstrates my ability to work with algorithms, data structures, and full-stack web
 development.
@@ -204,23 +204,11 @@ development.
   <img src="ePortfolio Pictures/1000004985.jpg">
 </center>
 
-<code>You can see the orginal code and enhanced one <a href="https://github.com/GosiaD37/GosiaD37.github.io/tree/main/Databases">here</a>.</code>  
+<code>You can see the orginal and enhanced code <a href="https://github.com/GosiaD37/GosiaD37.github.io/tree/main/Databases">here</a>.</code>  
 
-For the final category, I selected a contact management system that I initially created in CS-405.
-It tests the behavior of a dynamic collection using the <code>std::vector</code> class and the Google Test
-framework. This test suite is designed to verify operations like adding elements, resizing the
-collection, clearing values, checking capacity, and handling exceptions. Although not tied to a
-formal database system, the project simulates record-based operations similar to basic CRUD
-functionality found in contact or data management systems, making it relevant to the Databases
-category.
+For the final category, I selected a contact management system that I initially created in CS-405. It tests the behavior of a dynamic collection using the <code>std::vector</code> class and the Google Test framework. This test suite is designed to verify operations like adding elements, resizing the collection, clearing values, checking capacity, and handling exceptions. Although not tied to a formal database system, the project simulates key behaviors of a data structure management system that would underlie many database operations.
 
-I selected this artifact for my ePortfolio because it demonstrates my skills in object-oriented
-programming, testing, and defensive programming all critical competencies in software
-development. The original version of the test suite <code>(test.cpp)</code> functioned correctly but lacked
-clarity, structure, and coverage in certain key areas. Specifically, it had minimal inline
-documentation, limited exception handling, and did not fully test edge cases like exceeding
-maximum capacity or accessing out-of-bound elements.
-
+The original project served as a demonstration of test-driven development, dynamic memory management, and the power of the <code>std::vector</code> class. My enhancement goal was to improve the suite’s coverage and robustness, adding more comprehensive tests and clearer documentation. I refactored some of the existing test cases to be more readable and grouped tests logically.
 As part of this milestone, I significantly improved the artifact by enhancing the codebase in
 NEWtest.cpp. To strengthen the original code, I made several numbers of key improvements:
 
@@ -252,14 +240,14 @@ skills I intended to strengthen.
 
 Reflecting on the enhancement process, I gained a deeper understanding of how valuable
 thorough testing and thoughtful design can be in ensuring software quality. One of the challenges
-I faced was determining how to best simulate database-like operations within a C++ environment
+I faced was determining how to best simulate database, like operations within a C++ environment
 that doesn't use a database engine. I focused on core behaviors like adding entries, resizing
 collections, and validating boundaries, and ensured these were covered by meaningful,
 automated tests.
 
 This process helped me transition from simply making code “work” to engineering code that is
 reliable, readable, and resilient. It reinforced the idea that strong testing and defensive design
-aren’t optional, they are essential to building professional-grade software. Overall, this artifact
+aren’t optional, they are essential to building professional grade software. Overall, this artifact
 reflects not just my technical growth but also my evolving mindset as a developer who prioritizes
 quality, clarity, and long-term maintainability
 
