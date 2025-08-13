@@ -30,13 +30,13 @@ Over the past three years in the Computer Science program, I have experienced a 
 
 Throughout my coursework, I have worked on projects that reflect the real-world complexity of computer science. In collaborative environments, I learned the importance of version control, clear communication, and the ability to merge different coding styles and perspectives into a cohesive final product. These experiences sharpened my ability to operate effectively in team settings, balancing leadership and cooperation depending on the needs of the project.
 
-Equally important has been my development in communicating with stakeholders—translating technical challenges into clear, actionable language. I have engaged in requirements gathering, status reporting, and solution presentations, always keeping the end user in mind. This skill has proven essential not only for ensuring that technical solutions meet business needs but also for establishing trust and clarity between technical and non-technical audiences.
+Equally important has been my development in communicating with stakeholders translating technical challenges into clear, actionable language. I have engaged in requirements gathering, status reporting, and solution presentations, always keeping the end user in mind. This skill has proven essential not only for ensuring that technical solutions meet business needs but also for establishing trust and clarity between technical and non-technical audiences.
 
 **Growth Through Coursework and ePortfolio Development**
 
 From my first introductory programming assignments to the complex, multi-component projects in my capstone, I have consistently challenged myself to take on work that demonstrates both depth and breadth of skill. Building my ePortfolio required me to revisit and enhance prior work, which reinforced my understanding of software engineering principles and gave me the opportunity to implement industry best practices.
 
-One of the most valuable aspects of this process has been seeing my progression—from writing functional code to designing maintainable, modular, and scalable solutions. The act of improving my artifacts was not just about cleaner code; it was about developing the mindset of a professional who anticipates future requirements, considers the user’s needs, and applies systematic approaches to problem-solving.
+One of the most valuable aspects of this process has been seeing my progression from writing functional code to designing maintainable, modular, and scalable solutions. The act of improving my artifacts was not just about cleaner code; it was about developing the mindset of a professional who anticipates future requirements, considers the user’s needs, and applies systematic approaches to problem-solving.
 
 **Collaborating in a Team Environment**
 
