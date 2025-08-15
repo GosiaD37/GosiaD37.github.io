@@ -111,7 +111,7 @@ Introducing **error handling, file I/O**, and **structured design**, the enhance
 # Code Review Video - CS-410
 
 
-Below is a link directly to my YouTube page where I uploaded my Code Review w
+Below is a link directly to my YouTube page where I uploaded my Code Review 
 
 This video was built using You Tube https://youtu.be/SzGRhwiYMFY
 
@@ -199,7 +199,9 @@ development.
 
 # Code Review Video - CS-340
 
-*(Add your video link here)*
+Below is a link directly to my YouTube page where I uploaded my Code Review 
+
+This video was built using You Tube 
 
 
 # <pre align="center">Enhancement Three: Databases</pre>
@@ -260,7 +262,10 @@ quality, clarity, and long-term maintainability
 # Code Review Video - CS-405
 
 
-<code>You can watch the code review <a href="https://github.com/GosiaD37/GosiaD37.github.io/blob/main/Databases%20Video.mp4">here</a.</code>
+Below is a link directly to my YouTube page where I uploaded my Code Review 
+
+This video was built using You Tube https://youtu.be/krFubb637Y8
+
 
 
 
