@@ -110,7 +110,8 @@ Introducing **error handling, file I/O**, and **structured design**, the enhance
 
 # Code Review Video - CS-410
 
-*(Add your video link here)*
+
+<code>You can watch the code review <a href="https://www.brandonlombard.com/CS-499/code-review.html">here</a>.</code>
 
 
 # <pre align="center">Enhancement Two: Algorithms and Data Structures</pre>
