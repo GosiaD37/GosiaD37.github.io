@@ -111,7 +111,12 @@ Introducing **error handling, file I/O**, and **structured design**, the enhance
 # Code Review Video - CS-410
 
 
-<code>You can watch the code review here <a href="https://github.com/GosiaD37/GosiaD37.github.io/blob/main/Software%20Engineering%20and%20Design%20Video.mp4">here</a>.</code>
+Below is a link directly to my YouTube page where I uploaded my Code Review w
+
+This video was built using [You Tube]https://youtu.be/SzGRhwiYMFY
+
+
+
 
 
 # <pre align="center">Enhancement Two: Algorithms and Data Structures</pre>
