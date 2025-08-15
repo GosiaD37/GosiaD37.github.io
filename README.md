@@ -113,7 +113,7 @@ Introducing **error handling, file I/O**, and **structured design**, the enhance
 
 Below is a link directly to my YouTube page where I uploaded my Code Review w
 
-This video was built using [You Tube]https://youtu.be/SzGRhwiYMFY
+This video was built using You Tube https://youtu.be/SzGRhwiYMFY
 
 
 
