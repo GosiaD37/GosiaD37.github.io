@@ -254,7 +254,9 @@ quality, clarity, and long-term maintainability
 
 # Code Review Video - CS-405
 
-*(Add your video link here)*
+
+<code>You can watch the code review <a href="https://github.com/GosiaD37/GosiaD37.github.io/blob/main/Databases%20Video.mp4">here</a.</code>
+
 
 
 
